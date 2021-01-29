@@ -1,0 +1,12 @@
+img{
+    height: 210px;
+    width: 400px;
+}
+#body{
+    background-color: blanchedalmond;
+    width: 120px;
+    height: 180px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 180px;
+}

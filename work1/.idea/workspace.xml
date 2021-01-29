@@ -2,48 +2,21 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="justweb:war exploded" />
+      <artifact name="work1:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2a8ce1-4405-4290-8991-b5cfba77302f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a432daf2-8517-456e-bf53-232945a271f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
       </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\GitHub\2020.1\justweb\.idea" />
-      </set>
     </option>
   </component>
   <component name="LogFilters">
@@ -53,8 +26,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1j62mYn1NkFUn4mwlPsqw6S19KS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1jb7zgiCSv4i0Bgd6lzGFKBJMNl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -64,35 +36,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/week" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\justweb\web\WEB-INF\lib" />
-      <recent name="D:\justweb\web\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\justweb\web\WEB-INF\lib" />
-      <recent name="D:\justweb\web\css" />
-      <recent name="D:\justweb\web\img" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.13" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.13" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="justweb:war exploded">
+        <artifact name="work1:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/justweb" />
+            <option name="CONTEXT_PATH" value="/work1" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_13_justweb" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_13_work1" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -100,7 +61,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="30468" />
+        <option name="DEBUG_PORT" value="38471" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -150,7 +111,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="justweb:war exploded" />
+          <artifact name="work1:war exploded" />
         </option>
       </method>
     </configuration>
@@ -177,22 +138,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5a2a8ce1-4405-4290-8991-b5cfba77302f" name="Default Changelist" comment="" />
-      <created>1603110379212</created>
+      <changelist id="a432daf2-8517-456e-bf53-232945a271f6" name="Default Changelist" comment="" />
+      <created>1604061201747</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603110379212</updated>
-      <workItem from="1603110381788" duration="3196000" />
-      <workItem from="1603500672004" duration="356000" />
-      <workItem from="1603501191176" duration="2389000" />
-      <workItem from="1603504491723" duration="1516000" />
-      <workItem from="1603506045861" duration="895000" />
-      <workItem from="1603517412838" duration="12000" />
-      <workItem from="1604061023520" duration="2524000" />
-      <workItem from="1604065405174" duration="133000" />
-      <workItem from="1604071176004" duration="4636000" />
-      <workItem from="1609986037097" duration="25000" />
-      <workItem from="1611900201518" duration="785000" />
+      <updated>1604061201747</updated>
+      <workItem from="1604061205834" duration="1346000" />
+      <workItem from="1604069977351" duration="508000" />
     </task>
     <servers />
   </component>
@@ -200,25 +152,69 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="290" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603506353316">
+    <state x="137" y="138" key="#Project_Structure" timestamp="1604061225622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="290" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603506353316" />
-    <state x="644" y="207" key="FileChooserDialogImpl" timestamp="1611900930900">
+    <state x="137" y="138" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1604061225622" />
+    <state x="0" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604062351994">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="644" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611900930900" />
-    <state x="470" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1603504503628">
+    <state x="0" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604062351994" />
+    <state x="715" y="181" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604061718727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603504503628" />
-    <state x="278" y="0" key="new project wizard" timestamp="1604063664775">
+    <state x="715" y="181" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1604061718727" />
+    <state width="930" height="174" key="GridCell.Tab.0.bottom" timestamp="1604062552181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="278" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604063664775" />
-    <state x="339" y="502" key="run.anything.popup" timestamp="1603503531607">
+    <state width="930" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.0.center" timestamp="1604062552181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="339" y="502" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603503531607" />
+    <state width="930" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.0.left" timestamp="1604062552181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.0.right" timestamp="1604062552181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.1.bottom" timestamp="1604062552182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604062552182" />
+    <state width="930" height="174" key="GridCell.Tab.1.center" timestamp="1604062552181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.1.left" timestamp="1604062552181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.1.right" timestamp="1604062552181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604062552181" />
+    <state width="930" height="174" key="GridCell.Tab.2.bottom" timestamp="1604062552182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604062552182" />
+    <state width="930" height="174" key="GridCell.Tab.2.center" timestamp="1604062552182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604062552182" />
+    <state width="930" height="174" key="GridCell.Tab.2.left" timestamp="1604062552182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604062552182" />
+    <state width="930" height="174" key="GridCell.Tab.2.right" timestamp="1604062552182">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="174" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604062552182" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1604062410872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604062410872" />
   </component>
 </project>
