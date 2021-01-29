@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2a8ce1-4405-4290-8991-b5cfba77302f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a2a8ce1-4405-4290-8991-b5cfba77302f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +190,7 @@
       <workItem from="1604065405174" duration="133000" />
       <workItem from="1604071176004" duration="4636000" />
       <workItem from="1609986037097" duration="25000" />
-      <workItem from="1611900201518" duration="785000" />
+      <workItem from="1611900201518" duration="1061000" />
     </task>
     <servers />
   </component>
@@ -204,10 +202,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="290" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603506353316" />
-    <state x="644" y="207" key="FileChooserDialogImpl" timestamp="1611900930900">
+    <state x="644" y="207" key="FileChooserDialogImpl" timestamp="1611901259649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="644" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611900930900" />
+    <state x="644" y="207" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611901259649" />
     <state x="470" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1603504503628">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
