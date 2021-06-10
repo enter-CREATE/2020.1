@@ -28,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1a1EMgbm2npskuneVxkfeye9Qx7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,14 +42,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GitHub/2020.1/justweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../week" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
-    <configuration name="MovieView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieView" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MovieInformation.MovieView" />
       <module name="MovieInformationDemo" />
       <extension name="coverage">
@@ -58,11 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.MovieView" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,6 +91,7 @@
       <workItem from="1591866335456" duration="295000" />
       <workItem from="1592278597678" duration="191000" />
       <workItem from="1611899903328" duration="295000" />
+      <workItem from="1616925746565" duration="160000" />
     </task>
     <servers />
   </component>
@@ -99,10 +99,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1611900198273">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1616925800526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611900198273" />
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1616925800526" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616925811750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1616925811750" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1616925905678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616925905678" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1616925906539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1616925906539" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1611900135742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
