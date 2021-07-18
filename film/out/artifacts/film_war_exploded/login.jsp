@@ -11,24 +11,27 @@
     <title>电影信息管理系统</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        form{
+        form {
             width: 480px;
             margin: 0 auto;
             margin-top: 64px;
         }
-        button[type="submit"]{
+
+        button[type="submit"] {
             margin-top: 32px;
         }
-        #tip{
+
+        #tip {
             color: red;
             font-weight: bold;
             float: right;
             font-size: 14px;
         }
-        body{
+
+        body {
             background-color: lightskyblue;
             background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604425047830&di=ff99082ea5faba2340836d9364fea363&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F03%2F71%2F44%2F3457b7f53cc91ab.jpg");
-            background-size: 100%,100%;
+            background-size: 100%, 100%;
         }
     </style>
 </head>
@@ -61,7 +64,6 @@
             return true;
         }
     </script>
-
 
 
 </div>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        form{
+        form {
             width: 50%;
             margin: 0 auto;
         }
@@ -24,7 +24,8 @@
     <form action="/st/studentcrud" method="post">
         <div class="form-group">
             <label for="name">姓名</label>
-            <input type="text" class="form-control" name="name" value="${student.name}" id="name" placeholder="请输入姓名" readonly>
+            <input type="text" class="form-control" name="name" value="${student.name}" id="name" placeholder="请输入姓名"
+                   readonly>
         </div>
         <div class="form-group">
             <label for="sex">性别</label>
@@ -43,13 +44,13 @@
 
         <button type="submit" class="btn btn-danger form-control">修改</button>
     </form>
-<%--<form action="/st/updatestudent" method="post">--%>
-<%--    <p>姓名: <input type="text" name="name"></p>--%>
-<%--    <p>性别: <input type="text" name="sex"></p>--%>
-<%--    <p>学号: <input type="text" name="id"></p>--%>
-<%--    <p>年龄: <input type="number" name="age"></p>--%>
-<%--    <p><input type="submit" value="修改"></p>--%>
-<%--</form>--%>
+    <%--<form action="/st/updatestudent" method="post">--%>
+    <%--    <p>姓名: <input type="text" name="name"></p>--%>
+    <%--    <p>性别: <input type="text" name="sex"></p>--%>
+    <%--    <p>学号: <input type="text" name="id"></p>--%>
+    <%--    <p>年龄: <input type="number" name="age"></p>--%>
+    <%--    <p><input type="submit" value="修改"></p>--%>
+    <%--</form>--%>
 </div>
 </body>
 </html>

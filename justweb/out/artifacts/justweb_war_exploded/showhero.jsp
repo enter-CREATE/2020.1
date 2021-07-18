@@ -17,13 +17,13 @@
     <img src="/justweb/img/add.png" alt="" onclick="addHero()">
 
     <script>
-        function addHero(){
+        function addHero() {
             location.href = "addhero.jsp"
         }
     </script>
 
     <!-- table 将要显示的内容包起来 -->
-    <table  class="table table-hover  table-bordered">
+    <table class="table table-hover  table-bordered">
 
         <!-- 列标题 -->
         <tr>
@@ -50,8 +50,8 @@
         </c:forEach>
         <script>
 
-            function delhero(uk_name){
-                if(confirm("确认要删除吗")){
+            function delhero(uk_name) {
+                if (confirm("确认要删除吗")) {
                     window.location.href = "/justweb/herocrud?uk_name=" + ukName + "&operator=delete";
                 }
             }

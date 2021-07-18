@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css" type="text/css"  >
+   
+
+</head>
+<body>
+    <div class="bg">
+    </div>
+    <input type='checkbox' id='sidemenu'>
+    <aside>
+        <h2>主菜单</h2>
+        <br />
+        <ul id="sideul" class="nav">
+            <a href="/user/homeHtml">
+                <li  style="color: orange;">首页</li>
+            </a>
+            <a href="/user/listHtml">
+                <li>书库</li>
+            </a>
+            </a>
+            <a href="/user/loginHtml">
+                <li>登出</li>
+            </a >
+           
+        </ul>
+    </aside>
+    <div id='wrap'>
+        <label id='sideMenuControl' for='sidemenu'>≡</label>
+        <!--for 属性规定 label 与哪个表单元素绑定，即将这个控制侧边栏进出的按钮与checkbox绑定-->
+    </div>
+
+    <div class="container">
+        <div class="search-bar">
+            <input class="search-txt" type="text" name="" placeholder="搜索">
+            <a class="search-btn" href="#">
+                <i class="fas fa-rocket"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -16,7 +16,7 @@ public class JdbcUtil {
         Connection connection = null;
         try {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jkddb",
-                    "root","123456");
+                    "root", "123456");
         } catch (SQLException e) {
             e.printStackTrace();
         }

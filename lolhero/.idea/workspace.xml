@@ -7,7 +7,159 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ded6be17-2408-4451-ab65-40a25bd70e05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/java/com/company/book/controller/BookshelfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/java/com/company/book/dataobject/bookshelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/java/com/company/book/repository/BookshelfRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/java/com/company/book/service/BookshelfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/java/com/company/book/service/impl/BookshelfServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/add.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/car.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/rejist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/bxsd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/fdj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/hongloumeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/hushi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/jianshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/luojixue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/qingchun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/swjz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/tglz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/tuhua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/web_img_减号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/web_img_加号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/web_img_勾选.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/wssd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/xiyouji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/img/zui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/js/web_js_Commodity_detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/static/js/web_js_Tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../book/src/main/resources/templates/xuanhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlymyself.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MovieInformationDemo/src/MovieInformation/MovieView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ws2020/index8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Ws2020/index8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../book/book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/src/test/java/com/company/book/BookApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book/src/test/java/com/company/book/BookApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/addfilm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/addfilm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/film.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/film.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/out/artifacts/film_war_exploded/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/dao/FilmDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/dao/FilmDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/dao/UserinfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/dao/UserinfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/entity/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/entity/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/entity/Userinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/entity/Userinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/servlet/FilmServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/servlet/FilmServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/src/com/cx/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../film/src/com/cx/util/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/web/addfilm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/web/addfilm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/web/film.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/web/film.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../film/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../film/web/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/addhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/addhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/showhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/showhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/updatehero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/out/artifacts/justweb_war_exploded/updatehero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/jdbc/HeroCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/jdbc/HeroCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/jdbc/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/jdbc/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/CRUDServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/CRUDServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/HeroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/HeroServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/src/com/cx/servlet/UpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/web/addhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/web/addhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/web/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/web/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/web/showhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/web/showhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../justweb/web/updatehero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../justweb/web/updatehero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/addhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/addhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/hero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/hero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lolhero_war_exploded/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/dao/HeroDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/dao/HeroDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/dao/UserinfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/dao/UserinfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/entity/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/entity/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/entity/Userinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/entity/Userinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/servlet/HeroServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/servlet/HeroServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cx/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cx/util/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addhero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addhero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/hero.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/hero.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/addstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/addstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/deletestudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/deletestudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/showstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/showstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/updatestudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/out/artifacts/st_war_exploded/updatestudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/jdbc/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/jdbc/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/jdbc/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/jdbc/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/jdbc/StudentCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/jdbc/StudentCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/AddServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/AddServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/CRUDServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/CRUDServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/StudentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/UpdateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/UpdateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/src/com/cx/servlet/eServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../st/src/com/cx/servlet/eServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/web/addstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/web/addstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/web/deletestudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/web/deletestudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/web/showstudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/web/showstudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../st/web/updatestudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../st/web/updatestudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/HeroCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/HeroCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/fc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/fc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/ff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/ff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/jdbcDemo/HeroMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/jdbcDemo/HeroMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/jdbcDemo/jdbcDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/jdbcDemo/jdbcDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/jdbcDemo/jdbcDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/jdbcDemo/jdbcDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work1/out/artifacts/work1_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../work1/out/artifacts/work1_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work1/src/com/cx/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../work1/src/com/cx/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../work1/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../work1/web/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +386,7 @@
       <workItem from="1609986063136" duration="1910000" />
       <workItem from="1611899855352" duration="47000" />
       <workItem from="1615981079318" duration="219000" />
+      <workItem from="1624259840659" duration="199000" />
     </task>
     <servers />
   </component>

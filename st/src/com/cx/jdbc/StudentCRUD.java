@@ -10,10 +10,11 @@ import java.util.List;
 public class StudentCRUD {
     /**
      * 增加
+     *
      * @param student
      * @return
      */
-    public int insertStudent(Student student){
+    public int insertStudent(Student student) {
         // 获取数据库连接
         Connection connection = JdbcUtil.getConnection();
         PreparedStatement preparedStatement = null;
@@ -24,10 +25,10 @@ public class StudentCRUD {
             preparedStatement = connection.prepareStatement(sql);
             // 执行SQL语句之前设置占位符内容  1，2，3，4表示问号的顺序
             // ？的顺序是与表对应的
-            preparedStatement.setObject(1,student.getName());
-            preparedStatement.setObject(2,student.getSex());
-            preparedStatement.setObject(3,student.getId());
-            preparedStatement.setObject(4,student.getAge());
+            preparedStatement.setObject(1, student.getName());
+            preparedStatement.setObject(2, student.getSex());
+            preparedStatement.setObject(3, student.getId());
+            preparedStatement.setObject(4, student.getAge());
             // 执行SQL语句
             int affectedRows = preparedStatement.executeUpdate();
             return affectedRows;
@@ -51,10 +52,11 @@ public class StudentCRUD {
 
     /**
      * 根据Name列删除对应的信息
+     *
      * @param Name
      * @return
      */
-    public int deleteByName(String Name){
+    public int deleteByName(String Name) {
         Connection connection = JdbcUtil.getConnection();
         PreparedStatement preparedStatement = null;
 
@@ -89,10 +91,11 @@ public class StudentCRUD {
 
     /**
      * 更新信息
+     *
      * @param student
      * @return
      */
-    public int updateByName(Student student){
+    public int updateByName(Student student) {
         Connection connection = JdbcUtil.getConnection();
         PreparedStatement preparedStatement = null;
 
@@ -100,10 +103,10 @@ public class StudentCRUD {
 
         try {
             preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setObject(1,student.getSex());
-            preparedStatement.setObject(2,student.getId());
-            preparedStatement.setObject(3,student.getAge());
-            preparedStatement.setObject(4,student.getName());
+            preparedStatement.setObject(1, student.getSex());
+            preparedStatement.setObject(2, student.getId());
+            preparedStatement.setObject(3, student.getAge());
+            preparedStatement.setObject(4, student.getName());
             // 执行SQL语句
             int affectedRows = preparedStatement.executeUpdate();
             return affectedRows;
@@ -128,9 +131,10 @@ public class StudentCRUD {
 
     /**
      * 查询所有的学生
+     *
      * @return
      */
-    public List<Student> selectAll(){
+    public List<Student> selectAll() {
         Connection connection = JdbcUtil.getConnection();
         PreparedStatement preparedStatement = null;
 
@@ -142,14 +146,14 @@ public class StudentCRUD {
             // 执行SQL查询，返回结果集  查询出来的是多行数据
             ResultSet resultSet = preparedStatement.executeQuery();
             // 对结果集进行遍历  一次循环遍历出来的是一行数据
-            while(resultSet.next()){
+            while (resultSet.next()) {
 
                 Student student = new Student();
 
                 String name = resultSet.getString("name");
 
                 student.setName(name);
-                String  sex = resultSet.getString("sex");
+                String sex = resultSet.getString("sex");
 
                 student.setSex(sex);
                 String id = resultSet.getString("id");
@@ -170,7 +174,7 @@ public class StudentCRUD {
         return null;
     }
 
-    public Student selectByName(String Name){
+    public Student selectByName(String Name) {
         Connection connection = JdbcUtil.getConnection();
         PreparedStatement preparedStatement = null;
 
@@ -180,20 +184,20 @@ public class StudentCRUD {
             // 执行SQL查询，返回结果集  查询出来的是多行数据
             ResultSet resultSet = preparedStatement.executeQuery();
             // 对结果集进行遍历  一次循环遍历出来的是一行数据
-            while(resultSet.next()){
+            while (resultSet.next()) {
 
-                Student student=new Student();
+                Student student = new Student();
 
                 String name = resultSet.getString("name");
                 student.setName(name);
 
-                String sex=resultSet.getString("sex");
+                String sex = resultSet.getString("sex");
                 student.setSex(sex);
 
-                String id=resultSet.getString("id");
+                String id = resultSet.getString("id");
                 student.setId(id);
 
-                int age=resultSet.getInt("age");
+                int age = resultSet.getInt("age");
                 student.setAge(age);
 
                 return student;

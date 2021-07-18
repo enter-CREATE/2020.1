@@ -1,0 +1,156 @@
+.bg{
+    background-image: url(../img/3.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    min-width: 1000px;
+    z-index: -10;
+    zoom: 1;
+    background-color:#fff ;
+    -webkit-background-size: cover;
+    -o-border-size:cover ;
+    background-position: center 0;
+    top: 0;
+    left: 0;
+}
+
+
+#sidemenu{
+    display: none;
+}
+
+#sidemenu:checked + aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ #wrap {
+    /*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+    padding-left: 220px;
+}
+
+aside {
+    /*侧边栏,初始位置为-200px，即隐藏效果*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    background: rgb(138, 92, 40,0.5);
+    transition: 0.2s ease-out;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*控制侧边栏进出的按钮（外部包裹）*/
+#wrap {
+    margin-left: 20px;
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+label {
+    /*控制侧边栏进出的按钮*/
+    background: rgb(236, 217, 217);
+    border-radius: 70px;
+    color: rgb(126, 87, 14);
+    cursor: pointer;
+    display: block;
+    font-family: Courier New;
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    display: inline-block;
+}
+
+label:hover {
+    background: rgb(5, 5, 5);
+}
+
+#sideul li {
+    list-style: none;
+    color: white;
+    width: 100%;
+    height: 1.8em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sideul li:hover {
+    color: rgb(16, 17, 14,0.8);
+}
+
+
+
+
+
+
+.container{
+    height: 100%;
+    background-image:linear-gradient(90deg, #70e1f5 0%,#c0b19e 100%);
+   
+}
+.search-bar{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #afa589;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px; 
+}
+
+.search-bar:hover .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-bar:hover .search-btn{
+    background-image: url(../img/fdj.png);
+    box-sizing: border-box;  
+}
+.search-btn{
+    color: #bccbce;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../img/fdj.png) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(19, 2, 2) ;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}

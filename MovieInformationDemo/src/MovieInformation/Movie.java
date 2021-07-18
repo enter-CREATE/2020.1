@@ -1,4 +1,5 @@
 package MovieInformation;
+
 //实体类，用于封装电影的一些信息
 public class Movie {
     private String name;//电影名

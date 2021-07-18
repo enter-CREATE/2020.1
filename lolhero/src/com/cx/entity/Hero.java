@@ -5,12 +5,12 @@ package com.cx.entity;
  * 与表对应
  */
 public class Hero {
-    private  int id;
-    private  String ukName;
-    private  String nickName;
-    private  String tinyImg;
-    private  int attackPower;
-    private  int handHard;
+    private int id;
+    private String ukName;
+    private String nickName;
+    private String tinyImg;
+    private int attackPower;
+    private int handHard;
 
     public int getId() {
         return id;

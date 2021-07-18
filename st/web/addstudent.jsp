@@ -28,26 +28,26 @@
 
 <script>
 
-    function checkAll(){
-        if(!checkName()){
+    function checkAll() {
+        if (!checkName()) {
             return false
         }
-        if(!numberCheck()){
+        if (!numberCheck()) {
             return false
         }
         return true
     }
 
     // querySelector
-    function checkName(){
-        var Name =document.getElementById("name");
+    function checkName() {
+        var Name = document.getElementById("name");
         var ukTip = document.getElementById("uktip");
         var NameValue = Name.value;
         console.log(NameValue);
-        if(!NameValue) { // 0 '' NULL undefined false   !取反
+        if (!NameValue) { // 0 '' NULL undefined false   !取反
             ukTip.innerHTML = "名称不能为空";
             return false
-        } else if(NameValue.length > 10) {
+        } else if (NameValue.length > 10) {
             ukTip.innerHTML = "名称长度过长";
             return false
         } else {
@@ -57,7 +57,7 @@
     }
 
 
-    function numberCheck(){
+    function numberCheck() {
         // HTML 从上向下加载
         // 1. 获取标签元素   2.获取输入得值   3.合法性验证值   4.给出提示
         var element = document.getElementById("age") // 1
@@ -65,7 +65,7 @@
 
         var inputValue = element.value;
         console.log(inputValue)
-        if(inputValue >=1 && inputValue <=150){
+        if (inputValue >= 1 && inputValue <= 150) {
             numtip.innerHTML = "";
             return true
         }

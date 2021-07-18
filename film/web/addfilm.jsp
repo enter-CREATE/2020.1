@@ -11,17 +11,19 @@
     <title>添加电影信息</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        from{
+        from {
             width: 50%;
             margin: 0 auto;
-            background-color: rgba(82,88,99,0.3);
+            background-color: rgba(82, 88, 99, 0.3);
         }
-        body{
+
+        body {
             background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604425047762&di=08e7ec7927c132b9b2cd6210be67402c&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Fback_pic%2F03%2F89%2F82%2F6457da58b89e138.jpg");
-            background-size: 100%,100%;
+            background-size: 100%, 100%;
         }
-        label{
-            color:blue;
+
+        label {
+            color: blue;
             font-size: 20px;
             line-height: 20px;
         }

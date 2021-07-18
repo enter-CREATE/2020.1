@@ -16,7 +16,7 @@
 <button onclick="del()">删除</button>
 <script>
     // del函数
-    function del(){
+    function del() {
         // 根据名称删除英雄
         // 1.获取输入的名称信息 -- 获取input输入框
         var del = document.getElementById("delete");

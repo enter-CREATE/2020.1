@@ -30,26 +30,26 @@
 
 <script>
 
-    function checkAll(){
-        if(!checkUkName()){
+    function checkAll() {
+        if (!checkUkName()) {
             return false
         }
-        if(!numberCheck()){
+        if (!numberCheck()) {
             return false
         }
         return true
     }
 
     // querySelector
-    function checkUkName(){
-        var ukName =document.getElementById("uk_name")
+    function checkUkName() {
+        var ukName = document.getElementById("uk_name")
         var ukTip = document.getElementById("uktip")
         var ukNameValue = ukName.value // 得到输入的ukName
         console.log(ukNameValue)
-        if(!ukNameValue) { // 0 '' NULL undefined false   !取反
+        if (!ukNameValue) { // 0 '' NULL undefined false   !取反
             ukTip.innerHTML = "名称不能为空"
             return false
-        } else if(ukNameValue.length > 10) {
+        } else if (ukNameValue.length > 10) {
             ukTip.innerHTML = "名称长度过长"
             return false
         } else {
@@ -59,7 +59,7 @@
     }
 
 
-    function numberCheck(){
+    function numberCheck() {
         // HTML 从上向下加载
         // 1. 获取标签元素   2.获取输入得值   3.合法性验证值   4.给出提示
         var element = document.getElementById("hand_hard") // 1
@@ -67,7 +67,7 @@
 
         var inputValue = element.value;
         console.log(inputValue)
-        if(inputValue >=1 && inputValue <=10){
+        if (inputValue >= 1 && inputValue <= 10) {
             numtip.innerHTML = "";
             return true // 介于1-10之间
         }

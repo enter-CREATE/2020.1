@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/list.css" type="text/css" >
+</head>
+<body>
+ 
+<div class="searchbox">
+   <form action="">
+       <input type="text" name="" placeholder="搜索">
+       <input type="submit" name=""  value="search">
+   </form>
+ </div>
+
+ 
+
+
+    <div class="container">
+        <div class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="/user/homeHtml">首页</a>
+                </li>
+                <li>
+                    <a href="">小说</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/user/dongfangHtml">东方玄幻</a>
+                        </li>
+                        <li>
+                            <a href="">西方玄幻</a>
+                        </li>
+                        <li>
+                            <a href="">科幻</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">教科书</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="">日语</a>
+                        </li>
+                        <li>
+                            <a href="">英语</a>
+                        </li>
+                        <li>
+                            <a href="">高数</a>
+                        </li>
+                        <li>
+                            <a href="">计算机</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <a href="">古典著作</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="">中国古典</a>
+                        </li>
+                        <li>
+                            <a href="">西方古典</a>
+                        </li>
+                        <li>
+                            <a href="">历史著作</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">文学散文</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="">中国文学</a>
+                        </li>
+                        <li>
+                            <a href="">西方文学</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">儿童文学</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="">母婴</a>
+                        </li>
+                        <li>
+                            <a href="">小学</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">其他</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="imgbox">
+        <div class="box-img"><img src="/img/1.png" alt=""></div>
+        <div class="box-img"><img src="/img/2.png" alt=""></div>
+        <div class="box-img"><img src="/img/3.png" alt=""></div>
+        <div class="box-img"><img src="/img/4.png" alt=""></div>
+        <div class="left">&lt;</div>
+        <div class="right">&gt;</div>
+        <div class="point">
+         <ul>
+			<li class="btn"></li>
+			<li class="btn"></li>
+			<li class="btn"></li>
+			<li class="btn"></li>
+		 </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(function (){
+            //自动轮播
+            var index=0;//标记当前图片索引
+            setInterval(function(){
+                if(index==$(".box-img").length-1){
+                    index=0;
+                $(".box-img").css("opacity","0");
+                $(".box-img").eq(index).css("opacity","1");
+                $(".btn").css("background-color"," rgb(53, 53, 41)")
+                $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }else{
+                  index++;
+                  $(".box-img").css("opacity","0");
+                  $(".box-img").eq(index).css("opacity","1");
+                  $(".btn").css("background-color"," rgb(53, 53, 41)")
+                  $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }
+            },2000)
+           //左右切换
+           $(".left").click(function(){
+                if(index==0){
+                    index=$(".box-img").length-1;
+                    $(".box-img").css("opacity","0");
+                    $(".box-img").eq(index).css("opacity","1");
+                    $(".btn").css("background-color"," rgb(53, 53, 41)")
+                    $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }else{
+                    index--;
+                    $(".box-img").css("opacity","0");
+                    $(".box-img").eq(index).css("opacity","1");
+                    $(".btn").css("background-color"," rgb(53, 53, 41)")
+                    $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }
+           })
+           $(".right").click(function(){
+                if(index==$(".box-img").length-1){
+                    index=0;
+                    $(".box-img").css("opacity","0");
+                    $(".box-img").eq(index).css("opacity","1");
+                    $(".btn").css("background-color"," rgb(53, 53, 41)")
+                    $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }else{
+                    index++;
+                    $(".box-img").css("opacity","0");
+                    $(".box-img").eq(index).css("opacity","1");
+                    $(".btn").css("background-color"," rgb(53, 53, 41)")
+                    $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+                }
+           })
+
+           $(".btn").click(function(){
+               var indexx=$(this).index();
+               index=indexx;
+               $(".box-img").css("opacity","0");
+               $(".box-img").eq(index).css("opacity","1");
+               $(".btn").css("background-color"," rgb(53, 53, 41)")
+               $(".btn").eq(index).css("background-color","rgba(255, 255, 248, 0.719)")
+           })
+
+        
+        })
+    </script>
+
+
+
+
+
+
+
+    <div id="ProductList">
+        <!-- 商品列表展示 -->
+        <div :class="{displayEmpty:!isShow}">
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <a href="/user/detailHtml"> <img src="/img/xiyouji.jpg"></a>
+                        <h4>书名：《西游记》</h4>
+                        <div>价格：27.90</div>
+                        <h6>库存：100</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id">
+                        <a href="/user/honglouHtml"> <img src="/img/hongloumeng.jpg"></a>
+                        <h4>书名：《红楼梦》</h4>
+                        <div>价格：15.96</div>
+                        <h6>库存：60</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <a href="/user/luojiHtml"> <img src="/img/luojixue.jpg"></a>
+                        <h4>书名：《简单的逻辑》</h4>
+                        <div>价格：28.41</div>
+                        <h6>库存：90</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <img src="/img/jianshi.jpg">
+                        <h4>书名：《未来简史》</h4>
+                        <div>价格：64.60</div>
+                        <h6>库存：50</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <img src="/img/qingchun.jpg">
+                        <h4>书名：《青春不散场》</h4>
+                        <div>价格：28.31</div>
+                        <h6>库存：11</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <img src="/img/hushi.jpg">
+                        <h4>书名：《胡适家书》</h4>
+                        <div>价格：29.20</div>
+                        <h6>库存：116</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <img src="/img/tuhua.jpg">
+                        <h4>书名：《人物插画》</h4>
+                        <div>价格：30.00</div>
+                        <h6>库存：59</h6>
+                    </li>
+                </ul>
+            </div>
+            <div class="list_box" :style="{height: listheight}">
+                <ul>
+                    <li :key="index" v-for="(item,index) in proList" @click="gopinfopage(item.id)">
+                        <img src="/img/zui.jpg">
+                        <h4>书名：《非常之罪》</h4>
+                        <div>价格：50.90</div>
+                        <h6>库存：0</h6>
+                    </li>
+                </ul>
+            </div>
+
+         </div>
+    </div>
+</body>
+</html>

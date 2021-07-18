@@ -1,0 +1,316 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*搜索框*/
+.searchbox{
+    text-align: center;
+    margin: 10px auto;
+}
+input{
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 1px auto;
+   
+}
+input[type="text"]{
+    background-color: rgb(253, 244, 224);
+    width: 340px;
+    height: 50px;
+    padding: 0 25px;
+    left: -5px;
+    border-color: rgb(7, 7, 7);
+    border: 1;
+    
+}
+input[type="submit"]{
+    left: -5px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: rgb(238, 72, 72);
+    color: rgb(5, 1, 1);
+}
+input[type="submit"]:hover{
+    background: rgb(216, 35, 35);
+}
+
+/*侧边栏*/
+#sidemenu{
+    display: none;
+}
+
+#sidemenu:checked + aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ #wrap {
+    /*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+    padding-left: 220px;
+}
+
+aside {
+    /*侧边栏,初始位置为-200px，即隐藏效果*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    background: rgb(138, 92, 40,0.5);
+    transition: 0.2s ease-out;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*控制侧边栏进出的按钮（外部包裹）*/
+#wrap {
+    margin-left: 20px;
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+label {
+    /*控制侧边栏进出的按钮*/
+    background: rgb(206, 186, 186);
+    border-radius: 70px;
+    color: rgb(126, 87, 14);
+    cursor: pointer;
+    display: block;
+    font-family: Courier New;
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    display: inline-block;
+    left: 0;
+
+}
+label:hover {
+    background: rgb(5, 5, 5);
+}
+
+#sideul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1.8em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sideul li:hover {
+    color: rgb(16, 17, 14,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#line{
+	border: 2px solid rgb(17, 0, 0);
+	background: rgb(0, 0, 0);
+}
+#division{
+	width: 100%;
+	height: 50px;
+	background: rgb(216, 214, 214);
+	font-size: 40px;
+	font-family: 楷体;
+	line-height: 45px;
+	padding-left: 12%;
+}
+.context{
+	position: relative;
+	width: 76%;
+	/* height: 100%; */
+	margin: 0 12%;
+}
+.photo{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 450px;
+	margin: 1% 1%;
+	border: 1px solid rgb(204, 200, 200);
+}
+.big_photo{
+	position: relative;
+	width:85%;
+	height: 300px;
+	margin: 0 5%;
+	
+}
+.big_photo img{
+	width: 90%;
+	height: 90%;
+}
+.small_photo{
+	position: relative;
+	width: 17%;
+	height: 120px;
+	margin: 20px 3px;
+	float: left;
+}
+.small_photo img{
+	padding:20% 0;
+	width: 100%;
+	height: 70%;
+}
+.news{
+	position: relative;
+	float: left;
+	margin: 1% 1%;
+	width: 65%;
+	height: 500px;
+	border:  1px solid yellowgreen;
+}
+.book_name{
+	width: 90%;
+	height: 40px;
+	font-family: 楷体;
+	font-size: 35px;
+	padding: 5px 10px;
+	/* background: whitesmoke; */
+}
+.descride{
+	width: 97.2%;
+	height:100px;
+	padding: 5px 10px;
+	background: whitesmoke;
+	text-align: left;
+}
+.descride p{
+	margin: 0;
+	line-height: 30px;
+}
+.publish_news{
+	width: 100%;
+	height: 50px;
+	/* border-top: 1px solid gray; */
+}
+.publish_news div{
+	position: relative;
+	float: left;
+	margin: 15px 20px;
+	font-family: 隶书;
+	font-size: 20px;
+	color: #6495ED;
+}
+.publish_news div a{
+	text-decoration: none;
+	color: #008000;
+}
+.price{
+	width: 100%;
+	height: 150px;
+	background: whitesmoke;
+}
+.price span{
+	position: relative;
+	float: left;
+	font-size: 45px;
+	color: rgb(228, 21, 21);
+	margin: 20px -300px;
+}
+
+.buy_news{
+	width: 100%;
+	height: 100px;
+	margin: 20px 0 0 0;
+}
+.buy_news>div{
+	position: relative;
+	float: left;
+	border: 1px solid rgb(252, 252, 252);
+	margin: 10px 0 0 20px;
+	height: 40px;
+}
+.buy_news>div:first-child{
+	width: 80px;
+	border: 2px solid whitesmoke;
+}
+.buy_news>div>div {
+	position: relative;
+	left: 55px;
+	top:-40px;
+	width: 25px;
+	height: 40px;
+	background: rgb(255, 255, 255);
+}
+.buy_news>div>div>div{
+	width: 100%;
+	height: 50%;
+}
+
+.buy_news>div>div>div img{
+	width: 90%;
+	height: 100%;
+}
+.buy_news div:first-child input{
+	width: 40px;
+	height: 38px;
+	border: 0;
+	outline-style: none;
+	font-size: 20px;
+}
+
+.buy_news>div:not(:first-child){
+	font-size: 25px;
+	font-family: 楷体;
+	border-radius: 4px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.buy_news>div:nth-child(2){
+	background: rgb(240, 215, 215);
+}
+.buy_news>div:nth-child(3){
+	border: 1px solid pink;
+	background: pink;
+}
+.buy_news>div:nth-child(4){
+	border: 1px solid skyblue;
+	background: skyblue;
+}
+
+/* 展示图片 */
+.show_photo{
+	position: relative;
+	float: left;
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.show_photo img{
+	width: 95%;
+	height: 95%;
+}

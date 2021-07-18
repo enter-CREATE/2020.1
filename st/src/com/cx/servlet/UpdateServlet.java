@@ -10,30 +10,30 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "UpdateServlet",urlPatterns = "/updatestudent")
+@WebServlet(name = "UpdateServlet", urlPatterns = "/updatestudent")
 public class UpdateServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=utf-8");
 
-        String  name =request.getParameter("name");
-        String  sex =request.getParameter("sex");
-        String  id =request.getParameter("id");
-        String  age =request.getParameter("age");
+        String name = request.getParameter("name");
+        String sex = request.getParameter("sex");
+        String id = request.getParameter("id");
+        String age = request.getParameter("age");
 
-        Student student=new Student();
+        Student student = new Student();
         student.setName(name);
         student.setSex(sex);
         student.setId(id);
         student.setAge(Integer.parseInt(age));
 
-        StudentCRUD studentCRUD=new StudentCRUD();
+        StudentCRUD studentCRUD = new StudentCRUD();
         int isSuccess = studentCRUD.updateByName(student);
 
-        if(isSuccess>0){
+        if (isSuccess > 0) {
             response.getWriter().write("Success");
-        }else{
+        } else {
             response.getWriter().write("fail");
         }
     }

@@ -1,12 +1,12 @@
 package com.cx.entity;
 
 public class Film {
-    private  int id;
-    private  String ukName;//电影名
-    private  String nickName;//导演
-    private  String tinyImg;//图片地址
-    private  int attackPower;//人数
-    private  int handHard;//评分
+    private int id;
+    private String ukName;//电影名
+    private String nickName;//导演
+    private String tinyImg;//图片地址
+    private int attackPower;//人数
+    private int handHard;//评分
 
     public int getId() {
         return id;

@@ -41,7 +41,7 @@ public class HeroMain {
         heroes.add(hero6);
         // .....
 
-        for(int i = 0; i < heroes.size(); i++) {
+        for (int i = 0; i < heroes.size(); i++) {
             // 找到蓝方英雄并输出
             Hero hero = heroes.get(i);
 

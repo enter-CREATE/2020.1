@@ -11,24 +11,27 @@
     <title>英雄管理系统</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        form{
+        form {
             width: 480px;
             margin: 0 auto;
             margin-top: 64px;
         }
-        button[type="submit"]{
+
+        button[type="submit"] {
             margin-top: 32px;
         }
-        #tip{
+
+        #tip {
             color: red;
             font-weight: bold;
             float: right;
             font-size: 14px;
         }
-        body{
+
+        body {
             background-color: lightskyblue;
             background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1604134157622&di=f74b9d5af11344d76d605ae2f7fef8f9&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2Fa79c3fc75efcb4d41e562dff16ad3a6f9a04ed3c69dd27-uPFR5a_fw658");
-            background-size: 100%,100%;
+            background-size: 100%, 100%;
         }
     </style>
 </head>
@@ -61,7 +64,6 @@
             return true;
         }
     </script>
-
 
 
 </div>

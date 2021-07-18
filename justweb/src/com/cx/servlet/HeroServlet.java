@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "HeroServlet",urlPatterns = "/showhero")
+@WebServlet(name = "HeroServlet", urlPatterns = "/showhero")
 public class HeroServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // 查询英雄信息
@@ -30,6 +30,6 @@ public class HeroServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-            doPost(request, response);
+        doPost(request, response);
     }
 }

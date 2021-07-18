@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        form{
+        form {
             width: 50%;
             margin: 0 auto;
         }
@@ -24,20 +24,24 @@
     <form action="/justweb/herocrud" method="post">
         <div class="form-group">
             <label for="uk_name">名称</label>
-            <input type="text" class="form-control" name="uk_name" value="${hero.uk_name}" id="uk_name" placeholder="请输入名称" readonly>
+            <input type="text" class="form-control" name="uk_name" value="${hero.uk_name}" id="uk_name"
+                   placeholder="请输入名称" readonly>
         </div>
         <div class="form-group">
             <label for="nickname">昵称</label>
-            <input type="text" class="form-control" name="nickname" value="${hero.nickname}" id="nickname" placeholder="请输入昵称">
+            <input type="text" class="form-control" name="nickname" value="${hero.nickname}" id="nickname"
+                   placeholder="请输入昵称">
         </div>
 
         <div class="form-group">
             <label for="ting_img">图片地址</label>
-            <input type="text" class="form-control" name="ting_img" value="${hero.ting_img}" id="ting_img" placeholder="请输入昵称">
+            <input type="text" class="form-control" name="ting_img" value="${hero.ting_img}" id="ting_img"
+                   placeholder="请输入昵称">
         </div>
         <div class="form-group">
             <label for="hand_hard">上手难度</label>
-            <input type="number" class="form-control" name="hand_hard" value="${hero.hand_hard}" id="hand_hard" placeholder="请输入上手难度">
+            <input type="number" class="form-control" name="hand_hard" value="${hero.hand_hard}" id="hand_hard"
+                   placeholder="请输入上手难度">
         </div>
         <input type="hidden" name="operator" value="update">
 

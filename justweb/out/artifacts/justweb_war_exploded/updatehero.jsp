@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <style>
-        form{
+        form {
             width: 50%;
             margin: 0 auto;
         }
@@ -28,7 +28,7 @@
         </div>
         <div class="form-group">
             <label for="nickname">昵称</label>
-            <input type="text" class="form-control" name="nickname"  id="nickname" placeholder="请输入昵称">
+            <input type="text" class="form-control" name="nickname" id="nickname" placeholder="请输入昵称">
         </div>
 
         <div class="form-group">
@@ -37,7 +37,7 @@
         </div>
         <div class="form-group">
             <label for="hand_hard">上手难度</label>
-            <input type="number" class="form-control" name="hand_hard"  id="hand_hard" placeholder="请输入上手难度">
+            <input type="number" class="form-control" name="hand_hard" id="hand_hard" placeholder="请输入上手难度">
         </div>
         <input type="hidden" name="operator" value="update">
 

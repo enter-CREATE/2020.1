@@ -9,26 +9,26 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DeleteServlet",urlPatterns = "/delstudent")
+@WebServlet(name = "DeleteServlet", urlPatterns = "/delstudent")
 public class DeleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=utf-8");
 
-        String name=request.getParameter("name");
+        String name = request.getParameter("name");
 
-        StudentCRUD studentCRUD=new StudentCRUD();
+        StudentCRUD studentCRUD = new StudentCRUD();
 
         int Success = studentCRUD.deleteByName("name");
-        if(Success>0){
+        if (Success > 0) {
             response.getWriter().write("Success");
-        }else{
+        } else {
             response.getWriter().write("fail");
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        doPost(request, response);
     }
 }

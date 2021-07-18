@@ -15,10 +15,10 @@
 <button onclick="del()">删除</button>
 <script>
     function del() {
-        var del=document.getElementById("delete");
-        var value=del.value;
+        var del = document.getElementById("delete");
+        var value = del.value;
 
-        window.location.href="/st/delstudent?name="+value+ "&operator=delete";
+        window.location.href = "/st/delstudent?name=" + value + "&operator=delete";
     }
 
 </script>

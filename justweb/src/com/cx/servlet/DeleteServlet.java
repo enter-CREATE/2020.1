@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DeleteServlet",urlPatterns = "/delhero")
+@WebServlet(name = "DeleteServlet", urlPatterns = "/delhero")
 public class DeleteServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -17,12 +17,12 @@ public class DeleteServlet extends HttpServlet {
         response.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=utf-8");
         // 获取输入的ukName值
-        String uk_name=request.getParameter("uk_name");
-        HeroCRUD heroCRUD=new HeroCRUD();
+        String uk_name = request.getParameter("uk_name");
+        HeroCRUD heroCRUD = new HeroCRUD();
         int Success = heroCRUD.deleteByUkName("uk_name");
-        if(Success>0){
+        if (Success > 0) {
             response.getWriter().write("Success");
-        }else{
+        } else {
             response.getWriter().write("fail");
         }
 

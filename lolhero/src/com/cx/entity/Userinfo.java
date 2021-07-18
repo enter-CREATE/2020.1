@@ -5,10 +5,10 @@ package com.cx.entity;
  * 与表对于
  */
 public class Userinfo {
-    private  int id;
-    private  String phone;
-    private  String nickname;
-    private  String pwd;
+    private int id;
+    private String phone;
+    private String nickname;
+    private String pwd;
 
     public int getId() {
         return id;

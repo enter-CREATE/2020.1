@@ -12,10 +12,10 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "StudentServlet",urlPatterns = "/showstudent")
+@WebServlet(name = "StudentServlet", urlPatterns = "/showstudent")
 public class StudentServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        StudentCRUD studentCRUD=new StudentCRUD();
+        StudentCRUD studentCRUD = new StudentCRUD();
         List<Student> studentList = studentCRUD.selectAll();
 
         HttpSession session = request.getSession();

@@ -4,15 +4,15 @@ public class Main {
     // 应用程序的入口
     public static void main(String[] args) {
         insertHero();
-          // updateHero();
-          //deleteHero();
+        // updateHero();
+        //deleteHero();
         //selectAll();
     }
 
     /**
      * 写什么样的代码能有什么样的效果
      */
-    public static void insertHero(){
+    public static void insertHero() {
         // 创建一个英雄  new新建/创建
         Hero hero = new Hero();
         // 为这个英雄赋予相关属性
@@ -25,14 +25,14 @@ public class Main {
         HeroCRUD heroCRUD = new HeroCRUD();
         // 调用对象的插入英雄方法
         int affectedRows = heroCRUD.insertHero(hero);
-        if(affectedRows > 0){
+        if (affectedRows > 0) {
             System.out.println("插入数据成功");
         } else {
             System.out.println("插入数据失败");
         }
     }
 
-    public static void updateHero(){
+    public static void updateHero() {
         Hero hero = new Hero();
         // 为这个英雄赋予相关属性
         hero.setUk_name("黑暗之女");
@@ -42,19 +42,19 @@ public class Main {
 
         HeroCRUD heroCRUD = new HeroCRUD();
         int affectedRows = heroCRUD.updateByUkName(hero);
-        if(affectedRows > 0){
+        if (affectedRows > 0) {
             System.out.println("更新数据成功");
         } else {
             System.out.println("更新数据失败");
         }
     }
 
-    public static void deleteHero(){
+    public static void deleteHero() {
         String ukName = "黑暗之女";
         HeroCRUD heroCRUD = new HeroCRUD();
         int affectedRows = heroCRUD.deleteByUkName(ukName);
 
-        if(affectedRows > 0){
+        if (affectedRows > 0) {
             System.out.println("删除数据成功");
         } else {
             System.out.println("删除数据失败");
@@ -64,7 +64,7 @@ public class Main {
     /**
      * 查询所有英雄
      */
-    public static void selectAll(){
+    public static void selectAll() {
         HeroCRUD heroCRUD = new HeroCRUD();
         List<Hero> heroList = heroCRUD.selectAll();
         // 遍历英雄列表并输出每一个英雄信息

@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+
+}
+
+/*侧边栏*/
+#sidemenu{
+    display: none;
+}
+
+#sidemenu:checked + aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ #wrap {
+    /*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+    padding-left: 220px;
+}
+
+aside {
+    /*侧边栏,初始位置为-200px，即隐藏效果*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -200px;
+    width: 200px;
+    background: rgb(138, 92, 40,0.5);
+    transition: 0.2s ease-out;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*控制侧边栏进出的按钮（外部包裹）*/
+#wrap {
+    margin-left: 20px;
+    padding: 10px;
+    transition: 0.2s ease-out;
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+label {
+    /*控制侧边栏进出的按钮*/
+    background: rgb(206, 186, 186);
+    border-radius: 70px;
+    color: rgb(126, 87, 14);
+    cursor: pointer;
+    display: block;
+    font-family: Courier New;
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    display: inline-block;
+    left: 0;
+
+}
+label:hover {
+    background: rgb(5, 5, 5);
+}
+
+#sideul li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 1.8em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sideul li:hover {
+    color: rgb(16, 17, 14,0.8);
+}
+
+
+
+
+
+.put{
+    text-align: center;
+}
+.form-group{
+    margin: 50px auto;
+    left: 0;
+    text-align: center;
+
+}
+input[type="text"]{
+    background-color: rgb(214, 212, 208);
+    width: 340px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    padding: 0 25px;
+    left: -5px;
+}
+[type="submit"]{
+    left: -5px;
+    border-radius:  25px 25px 25px 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: rgb(207, 196, 188);
+    color: rgb(5, 1, 1);
+}
+[type="submit"]:hover{
+    background: rgb(121, 196, 231);
+}

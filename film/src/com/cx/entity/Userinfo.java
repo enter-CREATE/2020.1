@@ -1,10 +1,10 @@
 package com.cx.entity;
 
 public class Userinfo {
-    private  int id;
-    private  String phone;//手机号
-    private  String nickname;//用户名
-    private  String pwd;//密码
+    private int id;
+    private String phone;//手机号
+    private String nickname;//用户名
+    private String pwd;//密码
 
     public int getId() {
         return id;

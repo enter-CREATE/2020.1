@@ -20,7 +20,7 @@ public class jdbcDemo {
 
         // 2  alt + enter 导包    获取到mysql数据库的连接
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jkddb",
-                "root","123456");
+                "root", "123456");
         // 3
         PreparedStatement preparedStatement = connection.prepareStatement(" insert into student values(\"lisi\",21);");
 
@@ -28,7 +28,7 @@ public class jdbcDemo {
 //        preparedStatement.executeQuery()
         int affectedRows = preparedStatement.executeUpdate();
         // 5. 增删改   返回一个整数，表示sql语句改变的行数   查询 返回一个结果集，表示查询到的数据
-        if(affectedRows > 0){
+        if (affectedRows > 0) {
             System.out.println("插入数据成功");
         } else {
             System.out.println("插入数据失败");
